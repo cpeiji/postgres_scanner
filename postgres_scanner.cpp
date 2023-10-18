@@ -114,6 +114,7 @@ struct PostgresLocalState : public LocalTableFunctionState {
 	TableFilterSet *filters;
 	string col_names;
 	PGconn *conn = nullptr;
+
 };
 
 struct PostgresGlobalState : public GlobalTableFunctionState {
