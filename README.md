@@ -4,6 +4,8 @@ The postgresscanner extension allows DuckDB to directly read data from a running
 
 ## Usage
 
+
+
 To make a Postgres database accessible to DuckDB, use the `POSTGRES_ATTACH` command:
 ```SQL
 CALL POSTGRES_ATTACH('');
